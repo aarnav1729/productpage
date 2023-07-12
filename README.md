@@ -1,12 +1,9 @@
-# productpage
-This is a fully responsive sample product page featuring different configurations of the Beats EP headphones.
-
-Visit: 
-
 # Sample Product Page
 This is a sample product page showcasing my expertise in HTML, CSS, and JavaScript. 
 The project demonstrates a responsive and interactive product page for Beats EP headphones. 
 It includes features like color selection, cable configuration, and social sharing.
+
+Visit: https://aarnav1729.github.io/productpage/
 
 ## Technologies Used
 - HTML5
