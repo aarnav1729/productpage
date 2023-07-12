@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample Product Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+
+  <body>
+    
+    <main class="container">
+      <div class="left-column">
+        <img data-image="black" src="black.png" alt="">
+        <img data-image="blue" src="blue.png" alt="">
+        <img data-image="red" class="active" src="red.png" alt="">
+      </div>
+
+      <div class="right-column">
+
+        <div class="product-description">
+          <span>Headphones</span>
+          <h1>Beats EP: Unleash the Power of Audio Excellence</h1>
+          <p>Experience the preferred choice of acclaimed DJs with Beats EP Headphones. 
+            These headphones deliver punchy, bass-focused sound with high isolation, making them the perfect companion 
+            for live performances. Designed with a sturdy headband and on-ear cushions, they ensure both durability 
+            and comfort, allowing you to fully immerse yourself in the music. 
+            Elevate your audio experience with Beats EP Headphones and discover a new level of sonic satisfaction.</p>
+        </div>
+
+        <div class="product-configuration">
+
+          <div class="product-color">
+            <span>Color</span>
+
+            <div class="color-choose">
+              <div>
+                <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                <label for="red"><span></span></label>
+              </div>
+              <div>
+                <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                <label for="blue"><span></span></label>
+              </div>
+              <div>
+                <input data-image="black" type="radio" id="black" name="color" value="black">
+                <label for="black"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="cable-config">
+            <span>Cable configuration</span>
+
+            <div class="cable-choose">
+              <button>Straight</button>
+              <button>Coiled</button>
+              <button>Long-coiled</button>
+            </div>
+
+            <a href="#">How to configurate your headphones</a>
+          </div>
+        </div>
+
+        <div class="product-price">
+          <span>148$</span>
+          <a href="#" class="cart-btn">Add to cart</a>
+          <a href="#" class="wishlist-btn">Add to wishlist</a>
+          
+          <div class="social-sharing">
+            <a href="https://github.com/aarnav1729" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aarnavsinghh" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://cdn.shopify.com/s/files/1/0694/7792/5170/files/Aarnav_Singh.pdf?v=1673245805" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
